@@ -1,0 +1,22 @@
+<?php
+/*
+Configuration des accès à la base de données
+*/
+
+$serveur = "localhost";   // adresse du serveur Il est fortement déconseillé de travailler sur un serveur distant !!!
+$user = "";               // entre le login de la base de données
+$passwd = "";             // entrer le mot de passe de la base de données
+$bdd = "";                // entre le nom de la base de données
+$port="3306";             // port par défaut pour MySQL
+
+try
+{
+  $cnx = new PDO('mysql:host='.$serveur.';port='.$port.';dbname='.$bdd, $user, $passwd, array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
+}
+
+catch (PDOException $e)
+{
+  echo 'N° : '.$e->getCode().'<br>';
+  die ('Erreur : '.$e->getMessage().'<br />');
+}
+?>

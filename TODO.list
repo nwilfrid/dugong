@@ -1,0 +1,18 @@
+TODO liste pour dugong
+
+
+> Revoire l'ensemble des variables
+
+> Revoire l'ensemble des fonctions 
+	- faut-il les regrouper dans un seul et unique fichier ou bien
+	les dissocier en fonction des 4 rubriques que je rappelle ici :
+		- administration
+		- enregistrement
+		- visualisation
+		- modification (qui reste à créer)
+
+> sécuriser les points d'entrées dans la base de données :
+	- mettre en place une authentification pour l'administration
+	- mettre un mot de passe (le même pour le même utilisateur) pour 
+	la saisie des requêtes
+

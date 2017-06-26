@@ -1,0 +1,196 @@
+body {
+    background-color: #daffd2;
+    font-family: "Verdana", sans-serif;
+} 
+
+/* Titre */
+h1 {
+    color: gray;
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+/* Sous-titre */
+h2 {
+    color: gray;
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 16px;
+/*     word-spacing: 10px; */
+}
+
+/* Entête de corps du texte */
+h3 {
+    color: #263253;
+    font-size: 16px;
+}
+
+/* URL */
+
+a:link, a:visited, a:active {
+    color: #7c7c7c;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+
+/* TEXTE */
+
+p {
+    color: #263253;
+}
+
+
+/* LISTE */
+
+ul {
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+/*
+li {
+    color: #263253;
+}
+
+li:before {
+    content: ""; 
+    padding-right: 2px;
+    color: #263253;
+}
+*/
+
+ul.corps {
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+li.corps {
+    color: #263253;
+}
+
+li.corps:before {
+    content: "»"; 
+    padding-right: 8px;
+    color: #263253;
+}
+
+/* TABLEAU */
+
+table, td, th {
+    border: none; // 2px solid #eee;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+th, td {
+    padding: 2px;
+}
+
+th {
+    height: 40px;
+}
+
+tr.resultat:hover {
+    background-color: #f5f5f5
+}
+
+.resultat:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+
+#border_right {
+    border-right: 3px solid #aaa;
+}
+
+td.menu {
+    width: 150px;
+    min-width: 150px;
+    max-width:150px;
+    position: static;
+    text-align: left;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+td.typo {
+    width: 240px;
+    text-align: left;
+    vertical-align: center;
+}
+
+/*
+.tab {
+    border: 2px solid;
+    width: 100%;
+}
+*/
+/*
+  Enregistrement
+  tables principales
+*/
+/*
+#test {
+    background-color: red;
+}
+*/
+#tab_align {
+    text-align: right;
+}
+
+.tp {
+    
+}
+
+/* Formulaire */
+
+input[type=text]:focus {
+    background-color: #d2e1ed; 
+}
+
+/* Menu déroulant */
+select {
+    width: 300px;
+    padding: 8px 16px;
+    margin: 4px 2px;
+    border: none;
+    border-radius: 2px;
+    background-color: #d2e1ed;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+/* Bouton */
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+
+/* FOOTER */
+
+td.footer {
+    text-align: right;
+}
+
+p.footer {
+    color: #7c7c7c;
+}
+
